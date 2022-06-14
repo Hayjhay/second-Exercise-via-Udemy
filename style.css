@@ -1,0 +1,165 @@
+ body {
+    background-color: rgb(51, 24, 24);
+    position: relative;
+
+}
+
+[id="brand"] {
+    font-size: 100px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    background-color: rgb(51, 24, 24);
+    box-shadow: 0 5px 4px 4px black;
+    color: rgba(189, 183, 107, 0.8);
+    z-index: 2;
+}
+
+[id="brand"]:hover::after {
+    content: 'Home of Luxury and Entertainment';
+    color: whitesmoke;
+    width: 30%;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: black;
+    padding: 5px;
+    border: 5px solid red;
+}
+
+
+#nav-container {
+    
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 150px;    
+    height: fit-content;
+    width: 100%;
+} 
+
+div[id$="title"] {
+    position: absolute;
+    left: 49%;
+    width: 50%;
+    margin-bottom: 30px;
+    right: 0;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(189, 183, 107, 0.6);
+    
+}
+
+.nav {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 45%;
+    left: 50%;
+}
+
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    width: 15%;
+    height: 30px;
+    font-size: 25px;
+    background-color: rgba(245, 222, 179, 0.7);
+    padding: 5px;
+    text-align: center;
+    margin-right: 5px;
+    box-shadow: 0 5px 2px 2px rgb(0,0,0, 0.6);
+}
+
+li>a {
+    color: rgb(51, 24, 24);
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.nav li:hover {
+    background-color: yellow;
+    font-size: 35px;
+    width: fit-content;
+    height: 40px;
+    font-weight: 700;
+}
+
+#body {
+    
+    box-shadow: 0 4px 5px 2px black;
+    padding: 10px;
+    position: relative;
+    top: 250px;
+}
+
+[id="body"]>p:first-child {
+    font-size: 40px;
+    
+}
+
+[id="body"]>p.next {
+    font-size: 25px;
+    
+}
+
+[id="body"]>p:last-child {
+    font-size: 25px;
+    
+}
+
+blockquote {
+    font-family: "Script MT";
+    font-size: 30px;
+    width: 30%;
+}
+
+footer {
+    position: absolute;
+    top: 780px;
+    left: 10px;
+    right: 10px;
+
+}
+
+div.col1 {
+    display: inline-block;
+    width: 30%;
+    height: 35px;
+    background-color: rgba(255, 200, 100, 0.3);
+    margin-right: -0.3%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.col2 {
+    display: inline-block;
+    width: 30%;
+    height: 35px;
+    background-color: rgba(255, 99, 71, 0.2);
+    margin-right: -0.3%;
+    text-align: center;
+    padding-top: 15px;
+}
+div.col3 {
+    display: inline-block;
+    width: 30%;
+    height: 35px;
+    background-color: rgba(255, 200, 100, 0.3);
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.full-col {
+    
+    width: 90%;
+    background-color: wheat;
+    text-align: center;
+} 
